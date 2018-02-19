@@ -17,7 +17,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/division-project"
-      
         },
         {
             "type": "vcs",
@@ -32,6 +31,11 @@
         {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-amp"
+
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-blog"
 
         },
         {
