@@ -840,12 +840,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events.git",
-                "reference": "c62e24542cb3f3b9afbdaedaf050f1abf75a0187"
+                "reference": "fba6b16591e59d06312bbc8a23fa8bea2af06f44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/c62e24542cb3f3b9afbdaedaf050f1abf75a0187",
-                "reference": "c62e24542cb3f3b9afbdaedaf050f1abf75a0187",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/fba6b16591e59d06312bbc8a23fa8bea2af06f44",
+                "reference": "fba6b16591e59d06312bbc8a23fa8bea2af06f44",
                 "shasum": ""
             },
             "require": {
@@ -864,7 +864,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/issues"
             },
-            "time": "2018-03-15T16:07:28+00:00"
+            "time": "2018-03-15T16:18:17+00:00"
         },
         {
             "name": "md/blog",
