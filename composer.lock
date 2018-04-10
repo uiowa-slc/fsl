@@ -85,16 +85,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "dev-master",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "0c420e1cd0e8a3a78e7a5e48b1d2ec2fded5d39e"
+                "reference": "049797d727261bf27f2690430d935067710049c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/0c420e1cd0e8a3a78e7a5e48b1d2ec2fded5d39e",
-                "reference": "0c420e1cd0e8a3a78e7a5e48b1d2ec2fded5d39e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/049797d727261bf27f2690430d935067710049c2",
+                "reference": "049797d727261bf27f2690430d935067710049c2",
                 "shasum": ""
             },
             "require": {
@@ -201,7 +201,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2018-01-25T16:41:42+00:00"
+            "time": "2017-12-29T09:13:20+00:00"
         },
         {
             "name": "embed/embed",
@@ -259,12 +259,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/facebook/php-graph-sdk.git",
-                "reference": "6eb970d5906dc61a96324b92ee673f177a83cf20"
+                "reference": "6d1eb5a3861624cd0ff40c67e517de891d78134a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/6eb970d5906dc61a96324b92ee673f177a83cf20",
-                "reference": "6eb970d5906dc61a96324b92ee673f177a83cf20",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/6d1eb5a3861624cd0ff40c67e517de891d78134a",
+                "reference": "6d1eb5a3861624cd0ff40c67e517de891d78134a",
                 "shasum": ""
             },
             "require": {
@@ -309,7 +309,7 @@
                 "facebook",
                 "sdk"
             ],
-            "time": "2017-12-06T20:21:26+00:00"
+            "time": "2018-02-25T19:55:53+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -317,12 +317,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "ba1bce30baab94dddde21c4ae93872b1762d39fa"
+                "reference": "73bf0937061461ca45292a93aa3b7e9010f2e753"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ba1bce30baab94dddde21c4ae93872b1762d39fa",
-                "reference": "ba1bce30baab94dddde21c4ae93872b1762d39fa",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/73bf0937061461ca45292a93aa3b7e9010f2e753",
+                "reference": "73bf0937061461ca45292a93aa3b7e9010f2e753",
                 "shasum": ""
             },
             "require": {
@@ -332,7 +332,7 @@
             },
             "require-dev": {
                 "ext-curl": "*",
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
                 "psr/log": "^1.0"
             },
             "suggest": {
@@ -374,7 +374,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2018-03-11T15:03:34+00:00"
+            "time": "2018-04-09T20:04:58+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -382,12 +382,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "0940c910fd14a68bd24a8b7c4a5528415a479c42"
+                "reference": "136531aa4e42f9b1971a47fb0faf60da00d2fefa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/0940c910fd14a68bd24a8b7c4a5528415a479c42",
-                "reference": "0940c910fd14a68bd24a8b7c4a5528415a479c42",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/136531aa4e42f9b1971a47fb0faf60da00d2fefa",
+                "reference": "136531aa4e42f9b1971a47fb0faf60da00d2fefa",
                 "shasum": ""
             },
             "require": {
@@ -425,7 +425,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2018-02-28T07:24:33+00:00"
+            "time": "2018-03-25T01:26:01+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -433,12 +433,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "649e354b657977c312cb6fb95720b1ac485f2092"
+                "reference": "773750151c47189c24f9026620e43ddd55d453a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/649e354b657977c312cb6fb95720b1ac485f2092",
-                "reference": "649e354b657977c312cb6fb95720b1ac485f2092",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/773750151c47189c24f9026620e43ddd55d453a2",
+                "reference": "773750151c47189c24f9026620e43ddd55d453a2",
                 "shasum": ""
             },
             "require": {
@@ -490,7 +490,38 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-02-28T07:24:56+00:00"
+            "time": "2018-03-29T00:18:34+00:00"
+        },
+        {
+            "name": "heyday/silverstripe-versioneddataobjects",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heyday/silverstripe-versioneddataobjects.git",
+                "reference": "30a07d976abd17baba9d9194ca176c82d72323ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heyday/silverstripe-versioneddataobjects/zipball/30a07d976abd17baba9d9194ca176c82d72323ac",
+                "reference": "30a07d976abd17baba9d9194ca176c82d72323ac",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Cam Spiers",
+                    "email": "camspiers@gmail.com"
+                }
+            ],
+            "description": "Provides Versioned DataObjects in SilverStripe",
+            "time": "2017-11-28T22:17:47+00:00"
         },
         {
             "name": "jeremeamia/SuperClosure",
@@ -663,16 +694,16 @@
         },
         {
             "name": "lullabot/amp",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lullabot/amp-library.git",
-                "reference": "a8eb47c657a99ddbcf208631d44ffd41bc0219ce"
+                "reference": "f1a5430bfff8fb9bb6249935e45627122adb3342"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lullabot/amp-library/zipball/a8eb47c657a99ddbcf208631d44ffd41bc0219ce",
-                "reference": "a8eb47c657a99ddbcf208631d44ffd41bc0219ce",
+                "url": "https://api.github.com/repos/Lullabot/amp-library/zipball/f1a5430bfff8fb9bb6249935e45627122adb3342",
+                "reference": "f1a5430bfff8fb9bb6249935e45627122adb3342",
                 "shasum": ""
             },
             "require": {
@@ -682,11 +713,11 @@
                 "php": ">=5.5.0",
                 "querypath/querypath": ">=3.0.4",
                 "sabberworm/php-css-parser": "^8.0.0",
-                "sebastian/diff": "~1.2"
+                "sebastian/diff": "^1.2 || ^2 || ^3"
             },
             "require-dev": {
                 "php": ">=5.5.0",
-                "phpunit/phpunit": "4.8.*",
+                "phpunit/phpunit": "4.8.* || ^6",
                 "symfony/console": "^2.7.0"
             },
             "type": "library",
@@ -715,7 +746,7 @@
                 "drupal",
                 "mobile"
             ],
-            "time": "2017-08-03T15:10:55+00:00"
+            "time": "2018-03-31T13:01:14+00:00"
         },
         {
             "name": "marc1706/fast-image-size",
@@ -840,12 +871,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events.git",
-                "reference": "fba6b16591e59d06312bbc8a23fa8bea2af06f44"
+                "reference": "317c1da84e6285bd8316d4de337dbfc163640203"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/fba6b16591e59d06312bbc8a23fa8bea2af06f44",
-                "reference": "fba6b16591e59d06312bbc8a23fa8bea2af06f44",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/317c1da84e6285bd8316d4de337dbfc163640203",
+                "reference": "317c1da84e6285bd8316d4de337dbfc163640203",
                 "shasum": ""
             },
             "require": {
@@ -864,7 +895,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/issues"
             },
-            "time": "2018-03-15T16:18:17+00:00"
+            "time": "2018-04-06T14:04:52+00:00"
         },
         {
             "name": "md/blog",
@@ -954,16 +985,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "c274a6b8aa8ce5379913dfd1e9d30341f9310474"
+                "reference": "b0a89facf92d5749808bc3c4f62e870377eaf29a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/c274a6b8aa8ce5379913dfd1e9d30341f9310474",
-                "reference": "c274a6b8aa8ce5379913dfd1e9d30341f9310474",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/b0a89facf92d5749808bc3c4f62e870377eaf29a",
+                "reference": "b0a89facf92d5749808bc3c4f62e870377eaf29a",
                 "shasum": ""
             },
             "require": {
                 "colymba/gridfield-bulk-editing-tools": "2.1.*",
+                "heyday/silverstripe-versioneddataobjects": "dev-master",
                 "jonom/focuspoint": "2.4.*",
                 "jonom/silverstripe-betternavigator": "3.*",
                 "md/ac-json-events": "dev-master",
@@ -1011,7 +1043,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2018-03-12T20:05:16+00:00"
+            "time": "2018-04-10T18:57:26+00:00"
         },
         {
             "name": "md/rss-display",
@@ -1608,28 +1640,28 @@
         },
         {
             "name": "sebastian/diff",
-            "version": "1.4.x-dev",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4"
+                "reference": "abcc70409ddfb310a8cb41ef0c2e857425438cf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/7f066a26a962dbe58ddea9f72a4e82874a3975a4",
-                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/abcc70409ddfb310a8cb41ef0c2e857425438cf4",
+                "reference": "abcc70409ddfb310a8cb41ef0c2e857425438cf4",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3 || ^7.0"
+                "php": "^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
+                "phpunit/phpunit": "^6.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "2.0-dev"
                 }
             },
             "autoload": {
@@ -1656,7 +1688,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2017-05-22T07:24:03+00:00"
+            "time": "2017-12-14T11:32:19+00:00"
         },
         {
             "name": "sheadawson/quickaddnew",
@@ -1894,12 +1926,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-themes/silverstripe-simple.git",
-                "reference": "c2fdd14e9a78d68ce7cb50c6100d571f8c78174e"
+                "reference": "4d546a4e525c3ad3eff2c481b996adb7b8313cce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/c2fdd14e9a78d68ce7cb50c6100d571f8c78174e",
-                "reference": "c2fdd14e9a78d68ce7cb50c6100d571f8c78174e",
+                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/4d546a4e525c3ad3eff2c481b996adb7b8313cce",
+                "reference": "4d546a4e525c3ad3eff2c481b996adb7b8313cce",
                 "shasum": ""
             },
             "require": {
@@ -1933,7 +1965,7 @@
                 "silverstripe",
                 "theme"
             ],
-            "time": "2018-01-12T01:59:25+00:00"
+            "time": "2018-03-21T12:34:28+00:00"
         },
         {
             "name": "silverstripe/activedirectory",
@@ -2144,12 +2176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wilr/silverstripe-googlesitemaps.git",
-                "reference": "930fd7f9ac96450d9758d32c87d4d21e5dca73a7"
+                "reference": "36091bc8401b3a7debe8f5059a7395809f1b5a2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wilr/silverstripe-googlesitemaps/zipball/930fd7f9ac96450d9758d32c87d4d21e5dca73a7",
-                "reference": "930fd7f9ac96450d9758d32c87d4d21e5dca73a7",
+                "url": "https://api.github.com/repos/wilr/silverstripe-googlesitemaps/zipball/36091bc8401b3a7debe8f5059a7395809f1b5a2d",
+                "reference": "36091bc8401b3a7debe8f5059a7395809f1b5a2d",
                 "shasum": ""
             },
             "require": {
@@ -2176,7 +2208,7 @@
                 "seo",
                 "silverstripe"
             ],
-            "time": "2016-09-26T17:43:00+00:00"
+            "time": "2018-03-07T11:45:24+00:00"
         },
         {
             "name": "silverstripe/lumberjack",
@@ -2528,12 +2560,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-staticpublisher.git",
-                "reference": "d417b6e8694cfda11ecf665277c5d5e04737a49b"
+                "reference": "2f5abd13e3f5afec9d1848072e1596b4128775f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-staticpublisher/zipball/d417b6e8694cfda11ecf665277c5d5e04737a49b",
-                "reference": "d417b6e8694cfda11ecf665277c5d5e04737a49b",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-staticpublisher/zipball/2f5abd13e3f5afec9d1848072e1596b4128775f1",
+                "reference": "2f5abd13e3f5afec9d1848072e1596b4128775f1",
                 "shasum": ""
             },
             "require": {
@@ -2558,7 +2590,7 @@
                 "silverstripe-labs",
                 "static"
             ],
-            "time": "2016-05-17T23:22:02+00:00"
+            "time": "2018-03-20T21:45:08+00:00"
         },
         {
             "name": "silverstripe/tagfield",
@@ -2752,19 +2784,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplepie/simplepie.git",
-                "reference": "fc6df44f832f99873f38ca080ab4276e385e4ef3"
+                "reference": "46ba7a577b068a630613a8933bb8252753863a04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/fc6df44f832f99873f38ca080ab4276e385e4ef3",
-                "reference": "fc6df44f832f99873f38ca080ab4276e385e4ef3",
+                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/46ba7a577b068a630613a8933bb8252753863a04",
+                "reference": "46ba7a577b068a630613a8933bb8252753863a04",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.6.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8.35 || ~5.4.3 || ~6.5"
+                "phpunit/phpunit": "~5.4.3 || ~6.5"
             },
             "suggest": {
                 "mf2/mf2": "Microformat module that allows for parsing HTML for microformats"
@@ -2804,7 +2836,7 @@
                 "feeds",
                 "rss"
             ],
-            "time": "2018-01-18T00:50:23+00:00"
+            "time": "2018-04-06T01:36:40+00:00"
         },
         {
             "name": "symbiote/silverstripe-addressable",
@@ -2954,12 +2986,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symbiote/silverstripe-queuedjobs.git",
-                "reference": "0f16f2d1c909d2bb6ace207e27e8dbfb85b776cc"
+                "reference": "8087310ce174d3622942888c0cb8294875474e82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symbiote/silverstripe-queuedjobs/zipball/0f16f2d1c909d2bb6ace207e27e8dbfb85b776cc",
-                "reference": "0f16f2d1c909d2bb6ace207e27e8dbfb85b776cc",
+                "url": "https://api.github.com/repos/symbiote/silverstripe-queuedjobs/zipball/8087310ce174d3622942888c0cb8294875474e82",
+                "reference": "8087310ce174d3622942888c0cb8294875474e82",
                 "shasum": ""
             },
             "require": {
@@ -2990,7 +3022,7 @@
                 "jobs",
                 "silverstripe"
             ],
-            "time": "2018-01-17T22:57:18+00:00"
+            "time": "2018-03-20T16:41:06+00:00"
         },
         {
             "name": "thisisbd/silverstripe-maintenance-mode",
@@ -3356,26 +3388,26 @@
         },
         {
             "name": "zendframework/zend-eventmanager",
-            "version": "3.0.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-eventmanager.git",
-                "reference": "5c80bdee0e952be112dcec0968bad770082c3a6e"
+                "reference": "969821ae236411f1540fa9a0267246ef07b02189"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/5c80bdee0e952be112dcec0968bad770082c3a6e",
-                "reference": "5c80bdee0e952be112dcec0968bad770082c3a6e",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/969821ae236411f1540fa9a0267246ef07b02189",
+                "reference": "969821ae236411f1540fa9a0267246ef07b02189",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5 || ^7.0"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
-                "athletic/athletic": "^0.1",
                 "container-interop/container-interop": "^1.1.0",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "^2.0",
+                "phpbench/phpbench": "^0.13",
+                "phpunit/phpunit": "^6.0.7 || ^5.7.14",
+                "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-stdlib": "^2.7.3 || ^3.0"
             },
             "suggest": {
@@ -3385,8 +3417,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev",
-                    "dev-develop": "3.1-dev"
+                    "dev-master": "3.2-dev",
+                    "dev-develop": "3.3-dev"
                 }
             },
             "autoload": {
@@ -3406,25 +3438,25 @@
                 "events",
                 "zf2"
             ],
-            "time": "2016-02-18T20:53:00+00:00"
+            "time": "2017-10-09T10:07:30+00:00"
         },
         {
             "name": "zendframework/zend-ldap",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-ldap.git",
-                "reference": "0234654ce6c300d3e59f7ce752d2895a7e6e673a"
+                "reference": "0b7aacd768d2e62876bd51b6127d3110a1c01747"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-ldap/zipball/0234654ce6c300d3e59f7ce752d2895a7e6e673a",
-                "reference": "0234654ce6c300d3e59f7ce752d2895a7e6e673a",
+                "url": "https://api.github.com/repos/zendframework/zend-ldap/zipball/0b7aacd768d2e62876bd51b6127d3110a1c01747",
+                "reference": "0b7aacd768d2e62876bd51b6127d3110a1c01747",
                 "shasum": ""
             },
             "require": {
                 "ext-ldap": "*",
-                "php": "^5.5 || ^7.0"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
                 "php-mock/php-mock-phpunit": "~0.3",
@@ -3459,31 +3491,32 @@
                 "ldap",
                 "zf2"
             ],
-            "time": "2017-09-27T07:01:58+00:00"
+            "time": "2017-09-27T07:02:08+00:00"
         },
         {
             "name": "zendframework/zend-session",
-            "version": "2.7.4",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-session.git",
-                "reference": "fa1d68852cd09e08a25c7dc7893d19811c085be9"
+                "reference": "e7cdb22a329c80cd73cdc82fb580efc3866aa7bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-session/zipball/fa1d68852cd09e08a25c7dc7893d19811c085be9",
-                "reference": "fa1d68852cd09e08a25c7dc7893d19811c085be9",
+                "url": "https://api.github.com/repos/zendframework/zend-session/zipball/e7cdb22a329c80cd73cdc82fb580efc3866aa7bb",
+                "reference": "e7cdb22a329c80cd73cdc82fb580efc3866aa7bb",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5 || ^7.0",
+                "php": "^5.6 || ^7.0",
                 "zendframework/zend-eventmanager": "^2.6.2 || ^3.0",
                 "zendframework/zend-stdlib": "^2.7 || ^3.0"
             },
             "require-dev": {
                 "container-interop/container-interop": "^1.1",
                 "mongodb/mongodb": "^1.0.1",
-                "phpunit/phpunit": "~4.0",
+                "php-mock/php-mock-phpunit": "^1.1.2 || ^2.0",
+                "phpunit/phpunit": "^5.7.5 || >=6.0.13 <6.5.0",
                 "zendframework/zend-cache": "^2.6.1",
                 "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-db": "^2.7",
@@ -3502,8 +3535,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev",
-                    "dev-develop": "2.8-dev"
+                    "dev-master": "2.8-dev",
+                    "dev-develop": "2.9-dev"
                 },
                 "zf": {
                     "component": "Zend\\Session",
@@ -3520,40 +3553,40 @@
                 "BSD-3-Clause"
             ],
             "description": "manage and preserve session data, a logical complement of cookie data, across multiple page requests by the same client",
-            "homepage": "https://github.com/zendframework/zend-session",
             "keywords": [
+                "ZendFramework",
                 "session",
-                "zf2"
+                "zf"
             ],
-            "time": "2017-06-19T15:23:03+00:00"
+            "time": "2018-02-22T16:28:39+00:00"
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "3.0.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "8bafa58574204bdff03c275d1d618aaa601588ae"
+                "reference": "c0404b360fabc8a18a49d9bee0cdd4ba790028ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/8bafa58574204bdff03c275d1d618aaa601588ae",
-                "reference": "8bafa58574204bdff03c275d1d618aaa601588ae",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/c0404b360fabc8a18a49d9bee0cdd4ba790028ef",
+                "reference": "c0404b360fabc8a18a49d9bee0cdd4ba790028ef",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5 || ^7.0"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
-                "athletic/athletic": "~0.1",
-                "fabpot/php-cs-fixer": "1.7.*",
-                "phpunit/phpunit": "~4.0"
+                "phpbench/phpbench": "^0.13",
+                "phpunit/phpunit": "^5.7.21 || ^6.3",
+                "zendframework/zend-coding-standard": "~1.0.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev",
-                    "dev-develop": "3.1-dev"
+                    "dev-master": "3.1-dev",
+                    "dev-develop": "3.2-dev"
                 }
             },
             "autoload": {
@@ -3570,7 +3603,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2016-04-12T21:19:36+00:00"
+            "time": "2017-10-24T18:17:07+00:00"
         }
     ],
     "packages-dev": [],
