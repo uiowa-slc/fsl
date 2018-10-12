@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "6e9a722cc1f3b56961d2493e22682d92",
@@ -119,7 +119,7 @@
                 "gridfield bulk upload",
                 "silverstripe"
             ],
-            "time": "2018-10-01 03:57:59"
+            "time": "2018-10-01T03:57:59+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -1116,12 +1116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events.git",
-                "reference": "c34ecf6918d7b92e08cec7a89d239a10b23667a2"
+                "reference": "56fbc0e2814efd6b2fb1fd623d5b0baef1418987"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/c34ecf6918d7b92e08cec7a89d239a10b23667a2",
-                "reference": "c34ecf6918d7b92e08cec7a89d239a10b23667a2",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/56fbc0e2814efd6b2fb1fd623d5b0baef1418987",
+                "reference": "56fbc0e2814efd6b2fb1fd623d5b0baef1418987",
                 "shasum": ""
             },
             "require": {
@@ -1141,7 +1141,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/tree/ss4.x-ui",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/issues"
             },
-            "time": "2018-10-04 18:37:55"
+            "time": "2018-10-11T18:59:31+00:00"
         },
         {
             "name": "md/division-analytics",
@@ -1168,7 +1168,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-analytics/tree/1.2.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-analytics/issues"
             },
-            "time": "2018-08-17 20:20:52"
+            "time": "2018-08-17T20:20:52+00:00"
         },
         {
             "name": "md/division-project",
@@ -1176,12 +1176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "20436f6155ab1f6a3f2b0c18a0b2a6fb47269b33"
+                "reference": "10d86ccac93102b585a66f02b709533756f26e63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/20436f6155ab1f6a3f2b0c18a0b2a6fb47269b33",
-                "reference": "20436f6155ab1f6a3f2b0c18a0b2a6fb47269b33",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/10d86ccac93102b585a66f02b709533756f26e63",
+                "reference": "10d86ccac93102b585a66f02b709533756f26e63",
                 "shasum": ""
             },
             "require": {
@@ -1227,7 +1227,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/ss4.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2018-10-05 20:53:38"
+            "time": "2018-10-12T14:57:50+00:00"
         },
         {
             "name": "md/saml",
@@ -1295,7 +1295,7 @@
             "support": {
                 "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml/tree/md"
             },
-            "time": "2018-08-22 20:27:51"
+            "time": "2018-08-22T20:27:51+00:00"
         },
         {
             "name": "md/silverstripe-maintenance-mode",
@@ -1359,7 +1359,7 @@
                 "issues": "http://github.com/dljoseph/silverstripe-maintenance-mode/issues",
                 "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-maintenance-mode/tree/master"
             },
-            "time": "2018-09-19 20:02:58"
+            "time": "2018-09-19T20:02:58+00:00"
         },
         {
             "name": "md/uiowa-bar",
@@ -1386,7 +1386,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar/tree/1.2.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar/issues"
             },
-            "time": "2018-07-05 17:48:54"
+            "time": "2018-07-05T17:48:54+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2596,7 +2596,7 @@
                 "silverstripe",
                 "spamprotection"
             ],
-            "time": "2018-06-28 21:15:27"
+            "time": "2018-06-28T21:15:27+00:00"
         },
         {
             "name": "silverstripe/recipe-cms",
@@ -4001,7 +4001,7 @@
                 "logic",
                 "silverstripe"
             ],
-            "time": "2018-02-26 22:11:35"
+            "time": "2018-02-26T22:11:35+00:00"
         },
         {
             "name": "undefinedoffset/silverstripe-nocaptcha",
