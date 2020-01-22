@@ -43,7 +43,7 @@ PATHS:
     # - "src/scripts/lib/foundation/foundation.drilldown.js"
     # - "src/scripts/lib/foundation/foundation.dropdown.js"
     # - "src/scripts/lib/foundation/foundation.dropdownMenu.js"
-    # - "src/scripts/lib/foundation/foundation.equalizer.js"
+    - "src/scripts/lib/foundation/foundation.equalizer.js"
     - "src/scripts/lib/foundation/foundation.interchange.js"
     # - "src/scripts/lib/foundation/foundation.magellan.js"
     # - "src/scripts/lib/foundation/foundation.offcanvas.js"
