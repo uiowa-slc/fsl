@@ -1294,12 +1294,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "d4b79cc2bbf071822f46d214c6ca99d52ed04951"
+                "reference": "419ba06b8d52c0e6c02d6cff6f6c8cbec680dd15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/d4b79cc2bbf071822f46d214c6ca99d52ed04951",
-                "reference": "d4b79cc2bbf071822f46d214c6ca99d52ed04951",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/419ba06b8d52c0e6c02d6cff6f6c8cbec680dd15",
+                "reference": "419ba06b8d52c0e6c02d6cff6f6c8cbec680dd15",
                 "shasum": ""
             },
             "require": {
@@ -1345,7 +1345,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2-topicholder-redo",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2020-01-28T21:40:14+00:00"
+            "time": "2020-01-31T15:37:04+00:00"
         },
         {
             "name": "md/saml",
@@ -3826,7 +3826,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
