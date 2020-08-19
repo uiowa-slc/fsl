@@ -1278,33 +1278,6 @@
             "time": "2020-06-30T19:47:36+00:00"
         },
         {
-            "name": "md/deploy-helper",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/StudentLifeMarketingAndDesign/deploy-helper.git",
-                "reference": "e9468da14e66b095923265d00fc59d4e39e77a18"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/deploy-helper/zipball/e9468da14e66b095923265d00fc59d4e39e77a18",
-                "reference": "e9468da14e66b095923265d00fc59d4e39e77a18",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "silverstripe/cms": "4.*",
-                "silverstripe/framework": "4.*"
-            },
-            "type": "silverstripe-vendormodule",
-            "description": "Deployment Helper",
-            "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/deploy-helper/tree/master",
-                "issues": "https://github.com/StudentLifeMarketingAndDesign/deploy-helper/issues"
-            },
-            "time": "2019-08-08T20:45:47+00:00"
-        },
-        {
             "name": "md/division-analytics",
             "version": "1.2.x-dev",
             "source": {
@@ -1337,12 +1310,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "84aa8860996618b813c5c393afb5ff588c58f48d"
+                "reference": "c19405be82d63a3fd258e9acd74ed15eabbe9779"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/84aa8860996618b813c5c393afb5ff588c58f48d",
-                "reference": "84aa8860996618b813c5c393afb5ff588c58f48d",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/c19405be82d63a3fd258e9acd74ed15eabbe9779",
+                "reference": "c19405be82d63a3fd258e9acd74ed15eabbe9779",
                 "shasum": ""
             },
             "require": {
@@ -1354,7 +1327,6 @@
                 "jonom/focuspoint": "*",
                 "jonom/silverstripe-betternavigator": "4.*",
                 "md/ac-json-events": "3.*",
-                "md/deploy-helper": "*",
                 "md/division-analytics": "1.2.x",
                 "md/saml": "dev-md",
                 "md/silverstripe-maintenance-mode": "dev-master",
@@ -1391,7 +1363,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2020-08-19T14:13:50+00:00"
+            "time": "2020-08-19T21:00:17+00:00"
         },
         {
             "name": "md/saml",
@@ -1641,16 +1613,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.7.0",
+            "version": "v4.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "21dce06dfbf0365c6a7cc8fdbdc995926c6a9300"
+                "reference": "aaee038b912e567780949787d5fe1977be11a778"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/21dce06dfbf0365c6a7cc8fdbdc995926c6a9300",
-                "reference": "21dce06dfbf0365c6a7cc8fdbdc995926c6a9300",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/aaee038b912e567780949787d5fe1977be11a778",
+                "reference": "aaee038b912e567780949787d5fe1977be11a778",
                 "shasum": ""
             },
             "require": {
@@ -1658,8 +1630,8 @@
                 "php": ">=7.0"
             },
             "require-dev": {
-                "ircmaxell/php-yacc": "0.0.5",
-                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0"
+                "ircmaxell/php-yacc": "^0.0.7",
+                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
             },
             "bin": [
                 "bin/php-parse"
@@ -1667,7 +1639,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.7-dev"
+                    "dev-master": "4.9-dev"
                 }
             },
             "autoload": {
@@ -1689,7 +1661,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2020-07-25T13:18:53+00:00"
+            "time": "2020-08-18T19:48:01+00:00"
         },
         {
             "name": "onelogin/php-saml",
@@ -3471,16 +3443,16 @@
         },
         {
             "name": "silverstripe/tagfield",
-            "version": "2.4.2",
+            "version": "2.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-tagfield.git",
-                "reference": "3b6ec92e668272d62935c626d047e7ff7d3f2089"
+                "reference": "66aa1af72a4678132e3b14ed88d886d22450ea89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-tagfield/zipball/3b6ec92e668272d62935c626d047e7ff7d3f2089",
-                "reference": "3b6ec92e668272d62935c626d047e7ff7d3f2089",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-tagfield/zipball/66aa1af72a4678132e3b14ed88d886d22450ea89",
+                "reference": "66aa1af72a4678132e3b14ed88d886d22450ea89",
                 "shasum": ""
             },
             "require": {
@@ -3520,7 +3492,7 @@
                 "silverstripe",
                 "tag"
             ],
-            "time": "2020-05-06T19:28:42+00:00"
+            "time": "2020-07-06T23:55:48+00:00"
         },
         {
             "name": "silverstripe/userforms",
@@ -5531,16 +5503,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "5.2.0",
+            "version": "5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "3170448f5769fe19f456173d833734e0ff1b84df"
+                "reference": "d870572532cd70bc3fab58f2e23ad423c8404c44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/3170448f5769fe19f456173d833734e0ff1b84df",
-                "reference": "3170448f5769fe19f456173d833734e0ff1b84df",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/d870572532cd70bc3fab58f2e23ad423c8404c44",
+                "reference": "d870572532cd70bc3fab58f2e23ad423c8404c44",
                 "shasum": ""
             },
             "require": {
@@ -5579,7 +5551,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2020-07-20T20:05:34+00:00"
+            "time": "2020-08-15T11:14:08+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
