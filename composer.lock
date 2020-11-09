@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "195cf6e746930c5e394a0a506782df1b",
+    "content-hash": "304752e8b39d6a1a9c8e134da1a20afc",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -1314,12 +1314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "dde0e2b98a38b2511c9a90ac2da8c52d43943111"
+                "reference": "47884fa9ffd50f2233f35335f43ad3c023ef5916"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/dde0e2b98a38b2511c9a90ac2da8c52d43943111",
-                "reference": "dde0e2b98a38b2511c9a90ac2da8c52d43943111",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/47884fa9ffd50f2233f35335f43ad3c023ef5916",
+                "reference": "47884fa9ffd50f2233f35335f43ad3c023ef5916",
                 "shasum": ""
             },
             "require": {
@@ -1368,7 +1368,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/3",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2020-11-09T16:01:56+00:00"
+            "time": "2020-11-09T17:09:04+00:00"
         },
         {
             "name": "md/saml",
@@ -2896,52 +2896,6 @@
             ],
             "description": "A module to make managing pages in a GridField easy without losing any of the functionality that you're used to in the CMS.",
             "time": "2020-01-17T03:56:22+00:00"
-        },
-        {
-            "name": "silverstripe/mathspamprotection",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-mathspamprotection.git",
-                "reference": "570eec324c89578f299e2340681b74edb7b3c712"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-mathspamprotection/zipball/570eec324c89578f299e2340681b74edb7b3c712",
-                "reference": "570eec324c89578f299e2340681b74edb7b3c712",
-                "shasum": ""
-            },
-            "require": {
-                "silverstripe/spamprotection": "^3"
-            },
-            "type": "silverstripe-vendormodule",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "SilverStripe\\MathSpamProtection\\": "code/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Will Rossiter",
-                    "email": "will@fullscreen.io"
-                }
-            ],
-            "description": "This module provides a simple math protection mechanism for prevent spam from your forms.Includes an EditableMathSpamField to integrate with the UserForms module.",
-            "keywords": [
-                "mathspamprotection",
-                "silverstripe",
-                "spamprotection"
-            ],
-            "time": "2018-06-28T21:15:27+00:00"
         },
         {
             "name": "silverstripe/mimevalidator",
@@ -6534,9 +6488,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "silverstripe/mathspamprotection": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
