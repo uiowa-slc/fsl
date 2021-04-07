@@ -41,6 +41,10 @@
         ]
     },
     "repositories": {
+        "silverstripe-migration-tools": {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-migration-tools"
+        },
         "0": {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/division-project"
