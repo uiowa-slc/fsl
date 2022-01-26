@@ -522,32 +522,28 @@
         },
         {
             "name": "doctrine/lexer",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/lexer.git",
-                "reference": "e864bbf5904cb8f5bb334f99209b48018522f042"
+                "reference": "9c50f840f257bbb941e6f4a0e94ccf5db5c3f76c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/lexer/zipball/e864bbf5904cb8f5bb334f99209b48018522f042",
-                "reference": "e864bbf5904cb8f5bb334f99209b48018522f042",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/9c50f840f257bbb941e6f4a0e94ccf5db5c3f76c",
+                "reference": "9c50f840f257bbb941e6f4a0e94ccf5db5c3f76c",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0"
+                "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^6.0",
-                "phpstan/phpstan": "^0.11.8",
-                "phpunit/phpunit": "^8.2"
+                "doctrine/coding-standard": "^9.0",
+                "phpstan/phpstan": "1.3",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+                "vimeo/psalm": "^4.11"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Doctrine\\Common\\Lexer\\": "lib/Doctrine/Common/Lexer"
@@ -582,7 +578,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/lexer/issues",
-                "source": "https://github.com/doctrine/lexer/tree/1.2.1"
+                "source": "https://github.com/doctrine/lexer/tree/1.2.2"
             },
             "funding": [
                 {
@@ -598,7 +594,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-25T17:44:05+00:00"
+            "time": "2022-01-12T08:27:12+00:00"
         },
         {
             "name": "edgarindustries/youtubefield",
@@ -1306,31 +1302,31 @@
         },
         {
             "name": "league/csv",
-            "version": "9.6.2",
+            "version": "9.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "f28da6e483bf979bac10e2add384c90ae9983e4e"
+                "reference": "002f55f649e7511710dc7154ff44c7be32c8195c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/f28da6e483bf979bac10e2add384c90ae9983e4e",
-                "reference": "f28da6e483bf979bac10e2add384c90ae9983e4e",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/002f55f649e7511710dc7154ff44c7be32c8195c",
+                "reference": "002f55f649e7511710dc7154ff44c7be32c8195c",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": ">=7.2.5"
+                "php": "^7.3 || ^8.0"
             },
             "require-dev": {
                 "ext-curl": "*",
                 "ext-dom": "*",
-                "friendsofphp/php-cs-fixer": "^2.16",
-                "phpstan/phpstan": "^0.12.0",
-                "phpstan/phpstan-phpunit": "^0.12.0",
-                "phpstan/phpstan-strict-rules": "^0.12.0",
-                "phpunit/phpunit": "^8.5"
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "phpstan/phpstan": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0.0",
+                "phpstan/phpstan-strict-rules": "^1.0",
+                "phpunit/phpunit": "^9.5"
             },
             "suggest": {
                 "ext-dom": "Required to use the XMLConverter and or the HTMLConverter classes",
@@ -1386,7 +1382,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-10T19:40:30+00:00"
+            "time": "2021-11-30T07:09:34+00:00"
         },
         {
             "name": "league/flysystem",
@@ -1602,27 +1598,32 @@
         },
         {
             "name": "marcj/topsort",
-            "version": "1.1.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marcj/topsort.php.git",
-                "reference": "387086c2db60ee0a27ac5df588c0f0b30c6bdc4b"
+                "reference": "972f58e42b5f110a0a1d8433247f65248abcfd5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marcj/topsort.php/zipball/387086c2db60ee0a27ac5df588c0f0b30c6bdc4b",
-                "reference": "387086c2db60ee0a27ac5df588c0f0b30c6bdc4b",
+                "url": "https://api.github.com/repos/marcj/topsort.php/zipball/972f58e42b5f110a0a1d8433247f65248abcfd5c",
+                "reference": "972f58e42b5f110a0a1d8433247f65248abcfd5c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4"
+                "php": ">=7.3"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
-                "phpunit/phpunit": "~4.0",
-                "symfony/console": "~2.5"
+                "phpunit/phpunit": "^9",
+                "symfony/console": "~2.5 || ~3.0 || ~4.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "MJS\\TopSort\\": "src/",
@@ -1647,9 +1648,15 @@
             ],
             "support": {
                 "issues": "https://github.com/marcj/topsort.php/issues",
-                "source": "https://github.com/marcj/topsort.php/tree/1.1.0"
+                "source": "https://github.com/marcj/topsort.php/tree/2.0.0"
             },
-            "time": "2016-11-19T14:58:11+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/marcj",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-09-24T12:39:55+00:00"
         },
         {
             "name": "md/ac-json-events",
@@ -1717,12 +1724,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "a010dccc684e548c591d2eb5f9fd13329ed9cd69"
+                "reference": "2b9882ca371c818012a431aa8a0026d3788b2fac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/a010dccc684e548c591d2eb5f9fd13329ed9cd69",
-                "reference": "a010dccc684e548c591d2eb5f9fd13329ed9cd69",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/2b9882ca371c818012a431aa8a0026d3788b2fac",
+                "reference": "2b9882ca371c818012a431aa8a0026d3788b2fac",
                 "shasum": ""
             },
             "require": {
@@ -1772,7 +1779,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/3",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2021-10-27T18:53:13+00:00"
+            "time": "2022-01-26T19:45:57+00:00"
         },
         {
             "name": "md/saml",
@@ -1913,12 +1920,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-migration-tools.git",
-                "reference": "6610945fff57443158b3132db53841024c4d5538"
+                "reference": "e984a947ce744aebfdb43e8005560d230938c989"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-migration-tools/zipball/6610945fff57443158b3132db53841024c4d5538",
-                "reference": "6610945fff57443158b3132db53841024c4d5538",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-migration-tools/zipball/e984a947ce744aebfdb43e8005560d230938c989",
+                "reference": "e984a947ce744aebfdb43e8005560d230938c989",
                 "shasum": ""
             },
             "require": {
@@ -1934,20 +1941,20 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-migration-tools/tree/main",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-migration-tools/issues"
             },
-            "time": "2021-11-01T16:03:59+00:00"
+            "time": "2022-01-25T17:58:54+00:00"
         },
         {
             "name": "md/uiowa-bar",
-            "version": "2.1",
+            "version": "2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar.git",
-                "reference": "81449cbecf49d9aff7bb52271d76b0abd0cf79e8"
+                "reference": "fcbd7eea244bfa5ae7a5b8711fbe7ce1f87dd433"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/uiowa-bar/zipball/81449cbecf49d9aff7bb52271d76b0abd0cf79e8",
-                "reference": "81449cbecf49d9aff7bb52271d76b0abd0cf79e8",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/uiowa-bar/zipball/fcbd7eea244bfa5ae7a5b8711fbe7ce1f87dd433",
+                "reference": "fcbd7eea244bfa5ae7a5b8711fbe7ce1f87dd433",
                 "shasum": ""
             },
             "require": {
@@ -1958,10 +1965,10 @@
             "type": "silverstripe-vendormodule",
             "description": "The University of Iowa Bar",
             "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar/tree/2.1",
+                "source": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar/tree/2.2",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar/issues"
             },
-            "time": "2020-11-02T22:06:23+00:00"
+            "time": "2022-01-19T18:45:28+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2740,16 +2747,16 @@
         },
         {
             "name": "silverstripe/asset-admin",
-            "version": "1.9.0",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-asset-admin.git",
-                "reference": "7a5d3a10027e83abed88ad420d76055628f2472b"
+                "reference": "6af940bce183ca36009637e11105ac3f4b18724e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-asset-admin/zipball/7a5d3a10027e83abed88ad420d76055628f2472b",
-                "reference": "7a5d3a10027e83abed88ad420d76055628f2472b",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-asset-admin/zipball/6af940bce183ca36009637e11105ac3f4b18724e",
+                "reference": "6af940bce183ca36009637e11105ac3f4b18724e",
                 "shasum": ""
             },
             "require": {
@@ -2788,9 +2795,9 @@
             "description": "Asset management for the SilverStripe CMS",
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-asset-admin/issues",
-                "source": "https://github.com/silverstripe/silverstripe-asset-admin/tree/1.9.0"
+                "source": "https://github.com/silverstripe/silverstripe-asset-admin/tree/1.9.1"
             },
-            "time": "2021-10-05T01:25:04+00:00"
+            "time": "2022-01-17T02:48:59+00:00"
         },
         {
             "name": "silverstripe/assets",
@@ -2861,19 +2868,20 @@
         },
         {
             "name": "silverstripe/blog",
-            "version": "3.8.0",
+            "version": "3.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "41bf42184376d28aa7673a000936dc6a52908a43"
+                "reference": "72941a5fe0e78e1f99302177206957b9a56a971a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/41bf42184376d28aa7673a000936dc6a52908a43",
-                "reference": "41bf42184376d28aa7673a000936dc6a52908a43",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/72941a5fe0e78e1f99302177206957b9a56a971a",
+                "reference": "72941a5fe0e78e1f99302177206957b9a56a971a",
                 "shasum": ""
             },
             "require": {
+                "php": "^7.3 || ^8.0",
                 "silverstripe/asset-admin": "^1.0",
                 "silverstripe/assets": "^1.0",
                 "silverstripe/cms": "^4.0",
@@ -2884,7 +2892,7 @@
                 "micmania1/silverstripe-blog": "*"
             },
             "require-dev": {
-                "sminnee/phpunit": "^5.7",
+                "silverstripe/recipe-testing": "^2",
                 "squizlabs/php_codesniffer": "^3.0"
             },
             "suggest": {
@@ -2901,7 +2909,8 @@
             "autoload": {
                 "psr-4": {
                     "SilverStripe\\Blog\\": "src/",
-                    "SilverStripe\\Blog\\Tests\\": "tests/"
+                    "SilverStripe\\Blog\\Tests\\": "tests/php/",
+                    "SilverStripe\\Blog\\Tests\\Behat\\Context\\": "tests/behat/src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2922,9 +2931,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-blog/issues",
-                "source": "https://github.com/silverstripe/silverstripe-blog/tree/3.8.0"
+                "source": "https://github.com/silverstripe/silverstripe-blog/tree/3.9.0"
             },
-            "time": "2021-10-05T01:25:05+00:00"
+            "time": "2021-11-24T02:45:45+00:00"
         },
         {
             "name": "silverstripe/campaign-admin",
@@ -3729,25 +3738,26 @@
         },
         {
             "name": "silverstripe/segment-field",
-            "version": "2.4.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-segment-field.git",
-                "reference": "b499246371f20a73cd8bd15a87fdb90c2c8fa17d"
+                "reference": "9418b1b27a208ef32df6b9100725e16c4084ce3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-segment-field/zipball/b499246371f20a73cd8bd15a87fdb90c2c8fa17d",
-                "reference": "b499246371f20a73cd8bd15a87fdb90c2c8fa17d",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-segment-field/zipball/9418b1b27a208ef32df6b9100725e16c4084ce3e",
+                "reference": "9418b1b27a208ef32df6b9100725e16c4084ce3e",
                 "shasum": ""
             },
             "require": {
+                "php": "^7.3 || ^8.0",
                 "silverstripe/cms": "^4"
             },
             "require-dev": {
+                "phpunit/phpunit": "^9.5",
                 "silverstripe/reports": "^4",
                 "silverstripe/siteconfig": "^4",
-                "sminnee/phpunit": "^5.7",
                 "squizlabs/php_codesniffer": "^3"
             },
             "type": "silverstripe-vendormodule",
@@ -3779,9 +3789,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-segment-field/issues",
-                "source": "https://github.com/silverstripe/silverstripe-segment-field/tree/2.4.0"
+                "source": "https://github.com/silverstripe/silverstripe-segment-field/tree/2.5.0"
             },
-            "time": "2021-08-05T06:29:33+00:00"
+            "time": "2021-11-24T04:19:05+00:00"
         },
         {
             "name": "silverstripe/session-manager",
@@ -4169,34 +4179,31 @@
         },
         {
             "name": "silverstripe/vendor-plugin",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/vendor-plugin.git",
-                "reference": "2d91abfbdff35443c0498684b917fbeeb166669b"
+                "reference": "814cfa98304e7e3e4d68ee7f9e72c0eddc972449"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/vendor-plugin/zipball/2d91abfbdff35443c0498684b917fbeeb166669b",
-                "reference": "2d91abfbdff35443c0498684b917fbeeb166669b",
+                "url": "https://api.github.com/repos/silverstripe/vendor-plugin/zipball/814cfa98304e7e3e4d68ee7f9e72c0eddc972449",
+                "reference": "814cfa98304e7e3e4d68ee7f9e72c0eddc972449",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.1 || ^2",
                 "composer/installers": "^1.4",
-                "php": "^7.1 || ^8"
+                "php": "^7.3 || ^8"
             },
             "require-dev": {
                 "composer/composer": "^1.5 || ^2@rc",
-                "phpunit/phpunit": "^5.7",
+                "phpunit/phpunit": "^9.5",
                 "squizlabs/php_codesniffer": "^3"
             },
             "type": "composer-plugin",
             "extra": {
-                "class": "SilverStripe\\VendorPlugin\\VendorPlugin",
-                "branch-alias": {
-                    "1.x-dev": "1.4.x-dev"
-                }
+                "class": "SilverStripe\\VendorPlugin\\VendorPlugin"
             },
             "autoload": {
                 "psr-4": {
@@ -4217,9 +4224,9 @@
             "description": "Allows vendor modules to expose directories to the webroot",
             "support": {
                 "issues": "https://github.com/silverstripe/vendor-plugin/issues",
-                "source": "https://github.com/silverstripe/vendor-plugin/tree/1.5.1"
+                "source": "https://github.com/silverstripe/vendor-plugin/tree/1.5.2"
             },
-            "time": "2020-10-29T02:40:05+00:00"
+            "time": "2021-11-09T12:32:23+00:00"
         },
         {
             "name": "silverstripe/versioned",
@@ -6106,16 +6113,16 @@
         },
         {
             "name": "thunderer/shortcode",
-            "version": "v0.7.4",
+            "version": "v0.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thunderer/Shortcode.git",
-                "reference": "79a219febd774ba1ee66a2992fee1145b4367561"
+                "reference": "a4fee30613bd46efb421f8305aff0466a3268a99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thunderer/Shortcode/zipball/79a219febd774ba1ee66a2992fee1145b4367561",
-                "reference": "79a219febd774ba1ee66a2992fee1145b4367561",
+                "url": "https://api.github.com/repos/thunderer/Shortcode/zipball/a4fee30613bd46efb421f8305aff0466a3268a99",
+                "reference": "a4fee30613bd46efb421f8305aff0466a3268a99",
                 "shasum": ""
             },
             "require": {
@@ -6156,9 +6163,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thunderer/Shortcode/issues",
-                "source": "https://github.com/thunderer/Shortcode/tree/v0.7.4"
+                "source": "https://github.com/thunderer/Shortcode/tree/v0.7.5"
             },
-            "time": "2020-03-08T11:25:13+00:00"
+            "time": "2022-01-13T18:53:33+00:00"
         },
         {
             "name": "tractorcow/silverstripe-robots",
